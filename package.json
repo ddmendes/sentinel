@@ -5,7 +5,8 @@
   "main": "mutant-detector.js",
   "scripts": {
     "test": "mocha",
-    "test:coverage": "nyc npm run test"
+    "test:coverage": "nyc npm run test",
+    "test:mutation": "stryker run"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
   },
   "homepage": "https://github.com/ddmendes/sentinel#readme",
   "devDependencies": {
+    "@stryker-mutator/core": "^4.5.1",
+    "@stryker-mutator/mocha-runner": "^4.5.1",
     "mocha": "^8.3.2",
     "nyc": "^15.1.0"
   },

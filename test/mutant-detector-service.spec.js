@@ -21,7 +21,7 @@ describe('Mutant Detector Test', () => {
         assert.doesNotThrow(() => MutantDetector.evaluateList(persons))
     });
 
-    it('main should throw error for invalid argument format', () => {
+    it('evaluateList should throw error for invalid person format', () => {
         let brokenPersons = [
             {
                 'name': 'Dr. Xavier',
