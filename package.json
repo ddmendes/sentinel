@@ -4,7 +4,8 @@
   "description": "Playground for mutation tests",
   "main": "mutant-detector.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha *.spec.js",
+    "test:coverage": "nyc npm run test"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/ddmendes/sentinel/issues"
   },
-  "homepage": "https://github.com/ddmendes/sentinel#readme"
+  "homepage": "https://github.com/ddmendes/sentinel#readme",
+  "devDependencies": {
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0"
+  }
 }
