@@ -1,0 +1,24 @@
+{
+  "name": "sentinel",
+  "version": "0.0.1",
+  "description": "Playground for mutation tests",
+  "main": "mutant-detector.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddmendes/sentinel.git"
+  },
+  "keywords": [
+    "stryker",
+    "mutation",
+    "test"
+  ],
+  "author": "d.mendes@sidi.org.br",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddmendes/sentinel/issues"
+  },
+  "homepage": "https://github.com/ddmendes/sentinel#readme"
+}
