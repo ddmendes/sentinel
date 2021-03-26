@@ -14,6 +14,12 @@ our tests are focused on the main responsibility of each function.
 This way any minor change on the function responsibility results in
 a test failure.
 
+## Install Dependencies
+
+```sh
+$ npm ci
+```
+
 ## Run the application
 
 ```sh
